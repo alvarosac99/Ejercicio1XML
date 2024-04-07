@@ -1,0 +1,26 @@
+<!--2.ORGANISMOS-->
+
+<organismos>
+    <organismo>
+        <nombre></nombre>
+        <siglas></siglas>
+        <fundacion></fundacion>
+        <tipo></tipo>
+        <miembros></miembros>
+        <estándares>
+            <estándar></estándar>
+            <estándar></estándar>
+        </estándares>
+    </organismo>
+    <organismo>
+        <nombre></nombre>
+        <siglas></siglas>
+        <fundacion></fundacion>
+        <tipo></tipo>
+        <miembros></miembros>
+        <estándares>
+            <estándar></estándar>
+            <estándar></estándar>
+        </estándares>
+    </organismo>
+</organismos>

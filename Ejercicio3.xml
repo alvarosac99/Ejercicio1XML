@@ -1,0 +1,71 @@
+<!--3.MODELOS-->
+
+<arquitecturasRed>
+    <modelo>
+        <nombre>OSI</nombre>
+        <numeroCapas>7</numeroCapas>
+        <servicios>
+            <capa>
+                <nombre>Física</nombre>
+                <prestaA>na</prestaA>
+                <recibe>Enlace de Datos</recibe>
+            </capa>
+            <capa>
+                <nombre>Enlace de Datos</nombre>
+                <prestaA>Física</prestaA>
+                <recibe>Red</recibe>
+            </capa>
+            <capa>
+                <nombre>Red</nombre>
+                <prestaA>Enlace de Datos</prestaA>
+                <recibe>Transporte</recibe>
+            </capa>
+            <capa>
+                <nombre>Transporte</nombre>
+                <prestaA>Red</prestaA>
+                <recibe>Sesión</recibe>
+            </capa>
+            <capa>
+                <nombre>Sesión</nombre>
+                <prestaA>Transporte</prestaA>
+                <recibe>Presentación</recibe>
+            </capa>
+            <capa>
+                <nombre>Presentación</nombre>
+                <prestaA>Sesión</prestaA>
+                <recibe>Aplicación</recibe>
+            </capa>
+            <capa>
+                <nombre>Aplicación</nombre>
+                <prestaA>Presentación</prestaA>
+                <recibe>na</recibe>
+            </capa>
+        </servicios>
+    </modelo>
+    <modelo>
+        <nombre>TCP/IP</nombre>
+        <numeroCapas>4</numeroCapas>
+        <servicios>
+            <capa>
+                <nombre>Enlace de Datos</nombre>
+                <prestaA>na</prestaA>
+                <recibe>Red</recibe>
+            </capa>
+            <capa>
+                <nombre>Red</nombre>
+                <prestaA>Enlace de Datos</prestaA>
+                <recibe>Transporte</recibe>
+            </capa>
+            <capa>
+                <nombre>Transporte</nombre>
+                <prestaA>Red</prestaA>
+                <recibe>Aplicación</recibe>
+            </capa>
+            <capa>
+                <nombre>Aplicación</nombre>
+                <prestaA>Transporte</prestaA>
+                <recibe>na</recibe>
+            </capa>
+        </servicios>
+    </modelo>
+</arquitecturasRed>

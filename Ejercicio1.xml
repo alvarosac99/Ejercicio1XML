@@ -1,22 +1,22 @@
-<!-- 1.NOVELA -->
+<!--1.NOVELA-->
 
 <obra>
     <Titulo>La Bestia</Titulo>
     <autor>
         <Nombre>
-            <nombre1>Jorge Díaz</nombre1>
-            <nombre2>Agustín Martínez</nombre2>
-            <nombre3>Antonio Mercero</nombre3>
+            <nombre>Jorge Díaz</nombre>
+            <nombre>Agustín Martínez</nombre>
+            <nombre>Antonio Mercero</nombre>
         </Nombre>
         <Pseudonimo>Carmen Mola</Pseudonimo>
     </autor>
     <Editorial>Planeta</Editorial>
     <fechaPublicacion>2021</fechaPublicacion>
     <Genero>
-        <genero1>Thriller</genero1>
+        <genero>Thriller</genero>
     </Genero>
     <premio>
-        <premio1>Premio Planeta 2021</premio1>
+        <premio>Premio Planeta 2021</premio>
     </premio>
     <ISBN>9788408249849</ISBN>
 </obra>
